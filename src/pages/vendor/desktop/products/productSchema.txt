@@ -1,0 +1,44 @@
+{
+  "_id": ObjectId("..."),
+  "name": "Classic Sneaker",
+  "category": "Footwear",
+  "description": "A comfortable and stylish sneaker for everyday wear.",
+  "basePrice": 59.99,
+  "vendor": {
+    "id": ObjectId("..."),
+    "name": "FootwearFashions"
+  },
+  "variants": [
+    {
+      "sku": "CLS-SNK-BLK-40",
+      "color": "Black",
+      "size": "40",
+      "price": 59.99,
+      "stock": 100,
+      "images": ["url1.jpg", "url2.jpg"]
+    },
+    {
+      "sku": "CLS-SNK-BLK-41",
+      "color": "Black",
+      "size": "41",
+      "price": 59.99,
+      "stock": 85,
+      "images": ["url3.jpg", "url4.jpg"]
+    },
+    {
+      "sku": "CLS-SNK-RED-40",
+      "color": "Red",
+      "size": "40",
+      "price": 64.99,
+      "stock": 50,
+      "images": ["url5.jpg", "url6.jpg"]
+    }
+  ],
+  "tags": ["sneaker", "casual", "comfortable"],
+  "ratings": {
+    "average": 4.5,
+    "count": 120
+  },
+  "createdAt": ISODate("2024-08-30T10:00:00Z"),
+  "updatedAt": ISODate("2024-08-30T10:00:00Z")
+}
